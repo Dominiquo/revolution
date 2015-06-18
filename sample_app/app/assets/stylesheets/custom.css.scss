@@ -14,11 +14,13 @@ $gray-medium-light: #eaeaea;
 /* universal */
 
 body {
-  background-image: image-url('qmanhimself.JPG');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding-top: 60px;
+  position: relative;
+  background: #5C97FF;
+  overflow: hidden;
+  padding-top: 120px;
 }
+
+
 
 section {
   overflow: auto;
@@ -115,6 +117,8 @@ footer {
   margin-top: 45px;
   @include box_sizing;
 }
+
+
 
 /* sidebar */
 
